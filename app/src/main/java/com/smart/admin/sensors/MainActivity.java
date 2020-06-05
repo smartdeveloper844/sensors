@@ -3,6 +3,7 @@ package com.smart.admin.sensors;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -43,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
                                 if(snapshot.child("logPass").getValue().toString().equals(pass.getText().toString())){
                                     Toast.makeText(MainActivity.this, "Login Successful", Toast.LENGTH_SHORT).show();
                                     match=true;
+                                    startActivity(new Intent(MainActivity.this,Sensors.class));
                                     return;
                                 }
                             }

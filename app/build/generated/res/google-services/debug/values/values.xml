@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">207449204313-n5gr8tjmod0lja4vuemldf8drautgsea.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://sensors-c5594.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">207449204313</string>
+    <string name="google_api_key" translatable="false">AIzaSyBW6m651g2Avb4sbp_xsXNt1dkmvZEBxnQ</string>
+    <string name="google_app_id" translatable="false">1:207449204313:android:7aabc9ab7dea408be9f348</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBW6m651g2Avb4sbp_xsXNt1dkmvZEBxnQ</string>
+    <string name="google_storage_bucket" translatable="false">sensors-c5594.appspot.com</string>
+    <string name="project_id" translatable="false">sensors-c5594</string>
+</resources>

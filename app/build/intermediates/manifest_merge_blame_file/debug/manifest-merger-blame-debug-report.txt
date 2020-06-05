@@ -10,89 +10,133 @@
 9        android:targetSdkVersion="29" />
 9-->C:\Users\Smart\Desktop\Studio\Sensors\app\src\main\AndroidManifest.xml
 10
-11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
-12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
-13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-13-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\49715c34499c7d30422c6475188b24ac\firebase-database-19.2.0\AndroidManifest.xml:25:5-79
-13-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\49715c34499c7d30422c6475188b24ac\firebase-database-19.2.0\AndroidManifest.xml:25:22-76
-14    <uses-permission android:name="android.permission.INTERNET" />
-14-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\49715c34499c7d30422c6475188b24ac\firebase-database-19.2.0\AndroidManifest.xml:26:5-67
-14-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\49715c34499c7d30422c6475188b24ac\firebase-database-19.2.0\AndroidManifest.xml:26:22-64
-15
-16    <application
-16-->C:\Users\Smart\Desktop\Studio\Sensors\app\src\main\AndroidManifest.xml:5:5-19:19
-17        android:allowBackup="true"
-17-->C:\Users\Smart\Desktop\Studio\Sensors\app\src\main\AndroidManifest.xml:6:9-35
-18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.1.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
-19        android:debuggable="true"
-20        android:icon="@mipmap/ic_launcher"
-20-->C:\Users\Smart\Desktop\Studio\Sensors\app\src\main\AndroidManifest.xml:7:9-43
-21        android:label="@string/app_name"
-21-->C:\Users\Smart\Desktop\Studio\Sensors\app\src\main\AndroidManifest.xml:8:9-41
-22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->C:\Users\Smart\Desktop\Studio\Sensors\app\src\main\AndroidManifest.xml:9:9-54
-23        android:supportsRtl="true"
-23-->C:\Users\Smart\Desktop\Studio\Sensors\app\src\main\AndroidManifest.xml:10:9-35
-24        android:theme="@style/AppTheme" >
-24-->C:\Users\Smart\Desktop\Studio\Sensors\app\src\main\AndroidManifest.xml:11:9-40
-25        <activity android:name="com.smart.admin.sensors.MainActivity" >
-25-->C:\Users\Smart\Desktop\Studio\Sensors\app\src\main\AndroidManifest.xml:12:9-18:20
-25-->C:\Users\Smart\Desktop\Studio\Sensors\app\src\main\AndroidManifest.xml:12:19-47
-26            <intent-filter>
-26-->C:\Users\Smart\Desktop\Studio\Sensors\app\src\main\AndroidManifest.xml:13:13-17:29
-27                <action android:name="android.intent.action.MAIN" />
-27-->C:\Users\Smart\Desktop\Studio\Sensors\app\src\main\AndroidManifest.xml:14:17-69
-27-->C:\Users\Smart\Desktop\Studio\Sensors\app\src\main\AndroidManifest.xml:14:25-66
-28
-29                <category android:name="android.intent.category.LAUNCHER" />
-29-->C:\Users\Smart\Desktop\Studio\Sensors\app\src\main\AndroidManifest.xml:16:17-77
-29-->C:\Users\Smart\Desktop\Studio\Sensors\app\src\main\AndroidManifest.xml:16:27-74
-30            </intent-filter>
-31        </activity>
-32
-33        <service
-33-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\49715c34499c7d30422c6475188b24ac\firebase-database-19.2.0\AndroidManifest.xml:29:9-35:19
-34            android:name="com.google.firebase.components.ComponentDiscoveryService"
-34-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\49715c34499c7d30422c6475188b24ac\firebase-database-19.2.0\AndroidManifest.xml:30:13-84
-35            android:directBootAware="true"
-35-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\31e042f59fe9c23df3bbaaeaa98dab2c\firebase-common-19.2.0\AndroidManifest.xml:15:13-43
-36            android:exported="false" >
-36-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\49715c34499c7d30422c6475188b24ac\firebase-database-19.2.0\AndroidManifest.xml:31:13-37
-37            <meta-data
-37-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\49715c34499c7d30422c6475188b24ac\firebase-database-19.2.0\AndroidManifest.xml:32:13-34:85
-38                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-38-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\49715c34499c7d30422c6475188b24ac\firebase-database-19.2.0\AndroidManifest.xml:33:17-109
-39                android:value="com.google.firebase.components.ComponentRegistrar" />
-39-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\49715c34499c7d30422c6475188b24ac\firebase-database-19.2.0\AndroidManifest.xml:34:17-82
-40        </service>
-41
-42        <activity
-42-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-43            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-43-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-44            android:exported="false"
-44-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-45            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-45-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-46
-47        <provider
-47-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\31e042f59fe9c23df3bbaaeaa98dab2c\firebase-common-19.2.0\AndroidManifest.xml:19:9-23:39
-48            android:name="com.google.firebase.provider.FirebaseInitProvider"
-48-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\31e042f59fe9c23df3bbaaeaa98dab2c\firebase-common-19.2.0\AndroidManifest.xml:20:13-77
-49            android:authorities="com.smart.admin.sensors.firebaseinitprovider"
-49-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\31e042f59fe9c23df3bbaaeaa98dab2c\firebase-common-19.2.0\AndroidManifest.xml:21:13-72
-50            android:exported="false"
-50-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\31e042f59fe9c23df3bbaaeaa98dab2c\firebase-common-19.2.0\AndroidManifest.xml:22:13-37
-51            android:initOrder="100" />
-51-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\31e042f59fe9c23df3bbaaeaa98dab2c\firebase-common-19.2.0\AndroidManifest.xml:23:13-36
-52
-53        <meta-data
-53-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\a8df1194b47591180f541fafc5b4bfab\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-54            android:name="com.google.android.gms.version"
-54-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\a8df1194b47591180f541fafc5b4bfab\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-55            android:value="@integer/google_play_services_version" />
-55-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\a8df1194b47591180f541fafc5b4bfab\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-56    </application>
-57
-58</manifest>
+11    <!--
+12         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+13         Google Maps Android API v2, but you must specify either coarse or fine
+14         location permissions for the 'MyLocation' functionality.
+15    -->
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->C:\Users\Smart\Desktop\Studio\Sensors\app\src\main\AndroidManifest.xml:10:5-79
+16-->C:\Users\Smart\Desktop\Studio\Sensors\app\src\main\AndroidManifest.xml:10:22-76
+17
+18    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+19    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:25:5-79
+20-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:25:22-76
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:26:5-67
+21-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:26:22-64
+22
+23    <uses-feature
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\82653396968af777fdb1f59f7c3ba8c3\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+24        android:glEsVersion="0x00020000"
+24-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\82653396968af777fdb1f59f7c3ba8c3\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+25        android:required="true" />
+25-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\82653396968af777fdb1f59f7c3ba8c3\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+26
+27    <application
+27-->C:\Users\Smart\Desktop\Studio\Sensors\app\src\main\AndroidManifest.xml:12:5-42:19
+28        android:allowBackup="true"
+28-->C:\Users\Smart\Desktop\Studio\Sensors\app\src\main\AndroidManifest.xml:13:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.1.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\331630a23dfa1f0594bcf54d5352aa36\core-1.1.0\AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:icon="@mipmap/ic_launcher"
+31-->C:\Users\Smart\Desktop\Studio\Sensors\app\src\main\AndroidManifest.xml:14:9-43
+32        android:label="@string/app_name"
+32-->C:\Users\Smart\Desktop\Studio\Sensors\app\src\main\AndroidManifest.xml:15:9-41
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->C:\Users\Smart\Desktop\Studio\Sensors\app\src\main\AndroidManifest.xml:16:9-54
+34        android:supportsRtl="true"
+34-->C:\Users\Smart\Desktop\Studio\Sensors\app\src\main\AndroidManifest.xml:17:9-35
+35        android:theme="@style/AppTheme" >
+35-->C:\Users\Smart\Desktop\Studio\Sensors\app\src\main\AndroidManifest.xml:18:9-40
+36
+37        <!--
+38             The API key for Google Maps-based APIs is defined as a string resource.
+39             (See the file "res/values/google_maps_api.xml").
+40             Note that the API key is linked to the encryption key used to sign the APK.
+41             You need a different API key for each encryption key, including the release key that is used to
+42             sign the APK for publishing.
+43             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+44        -->
+45        <meta-data
+45-->C:\Users\Smart\Desktop\Studio\Sensors\app\src\main\AndroidManifest.xml:28:9-30:55
+46            android:name="com.google.android.geo.API_KEY"
+46-->C:\Users\Smart\Desktop\Studio\Sensors\app\src\main\AndroidManifest.xml:29:13-58
+47            android:value="@string/google_maps_key" />
+47-->C:\Users\Smart\Desktop\Studio\Sensors\app\src\main\AndroidManifest.xml:30:13-52
+48
+49        <activity
+49-->C:\Users\Smart\Desktop\Studio\Sensors\app\src\main\AndroidManifest.xml:32:9-34:71
+50            android:name="com.smart.admin.sensors.Sensors"
+50-->C:\Users\Smart\Desktop\Studio\Sensors\app\src\main\AndroidManifest.xml:33:13-36
+51            android:label="@string/title_activity_sensors" />
+51-->C:\Users\Smart\Desktop\Studio\Sensors\app\src\main\AndroidManifest.xml:34:13-59
+52        <activity android:name="com.smart.admin.sensors.MainActivity" >
+52-->C:\Users\Smart\Desktop\Studio\Sensors\app\src\main\AndroidManifest.xml:35:9-41:20
+52-->C:\Users\Smart\Desktop\Studio\Sensors\app\src\main\AndroidManifest.xml:35:19-47
+53            <intent-filter>
+53-->C:\Users\Smart\Desktop\Studio\Sensors\app\src\main\AndroidManifest.xml:36:13-40:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->C:\Users\Smart\Desktop\Studio\Sensors\app\src\main\AndroidManifest.xml:37:17-69
+54-->C:\Users\Smart\Desktop\Studio\Sensors\app\src\main\AndroidManifest.xml:37:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->C:\Users\Smart\Desktop\Studio\Sensors\app\src\main\AndroidManifest.xml:39:17-77
+56-->C:\Users\Smart\Desktop\Studio\Sensors\app\src\main\AndroidManifest.xml:39:27-74
+57            </intent-filter>
+58        </activity>
+59
+60        <service
+60-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:29:9-35:19
+61            android:name="com.google.firebase.components.ComponentDiscoveryService"
+61-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:30:13-84
+62            android:directBootAware="true"
+62-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\3280fafdfb2d308e411aff0ec617f560\firebase-common-19.2.0\AndroidManifest.xml:15:13-43
+63            android:exported="false" >
+63-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:31:13-37
+64            <meta-data
+64-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:32:13-34:85
+65                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+65-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:33:17-109
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:34:17-82
+67        </service> <!-- Needs to be explicitly declared on P+ -->
+68        <uses-library
+68-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\82653396968af777fdb1f59f7c3ba8c3\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+69            android:name="org.apache.http.legacy"
+69-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\82653396968af777fdb1f59f7c3ba8c3\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+70            android:required="false" />
+70-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\82653396968af777fdb1f59f7c3ba8c3\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+71
+72        <activity
+72-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+73            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+73-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+74            android:exported="false"
+74-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+75            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+75-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+76
+77        <provider
+77-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\3280fafdfb2d308e411aff0ec617f560\firebase-common-19.2.0\AndroidManifest.xml:19:9-23:39
+78            android:name="com.google.firebase.provider.FirebaseInitProvider"
+78-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\3280fafdfb2d308e411aff0ec617f560\firebase-common-19.2.0\AndroidManifest.xml:20:13-77
+79            android:authorities="com.smart.admin.sensors.firebaseinitprovider"
+79-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\3280fafdfb2d308e411aff0ec617f560\firebase-common-19.2.0\AndroidManifest.xml:21:13-72
+80            android:exported="false"
+80-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\3280fafdfb2d308e411aff0ec617f560\firebase-common-19.2.0\AndroidManifest.xml:22:13-37
+81            android:initOrder="100" />
+81-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\3280fafdfb2d308e411aff0ec617f560\firebase-common-19.2.0\AndroidManifest.xml:23:13-36
+82
+83        <meta-data
+83-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\7ecf44eceabf9ed3482a0dcb5825993f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+84            android:name="com.google.android.gms.version"
+84-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\7ecf44eceabf9ed3482a0dcb5825993f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+85            android:value="@integer/google_play_services_version" />
+85-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Smart\.gradle\caches\transforms-2\files-2.1\7ecf44eceabf9ed3482a0dcb5825993f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+86    </application>
+87
+88</manifest>

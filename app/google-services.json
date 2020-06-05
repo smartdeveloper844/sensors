@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "207449204313",
+    "firebase_url": "https://sensors-c5594.firebaseio.com",
+    "project_id": "sensors-c5594",
+    "storage_bucket": "sensors-c5594.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207449204313:android:7aabc9ab7dea408be9f348",
+        "android_client_info": {
+          "package_name": "com.smart.admin.sensors"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207449204313-n5gr8tjmod0lja4vuemldf8drautgsea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW6m651g2Avb4sbp_xsXNt1dkmvZEBxnQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207449204313-n5gr8tjmod0lja4vuemldf8drautgsea.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
